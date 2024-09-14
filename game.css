@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #B9647F;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    color: #9E1946;
+    font-family: cursive;
+}
+
+#main{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inside{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: centers;
+}
+
+#box{
+    height: 18vmin;
+    width: 18vmin;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #652D3F;
+    font-size: 3rem;
+}
+
+#reset{
+    font-size: 2rem;
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+#newgame{
+    font-size: 2rem;
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    display: none;
+}
